@@ -5,18 +5,35 @@ A Flask web application that uses a deep learning model to predict a dog's breed
 ---
 
 
-
 ## ⚙️ Setup Instructions
 
-### Using `requirements.txt`
+### 1. 📁 Create and Activate Virtual Environment
 
 ```bash
-# 📦 Install dependencies
+# Create virtual environment
+python -m venv venv
+
+# Activate it:
+# 🪟 Windows CMD
+venv\Scripts\activate
+
+# 💠 Windows PowerShell
+.\venv\Scripts\Activate.ps1
+
+# 🍎 macOS / 🐧 Linux
+source venv/bin/activate
+```
+
+### 2. 📦 Install dependencies
+
+```bash
+
 pip install -r requirements.txt
 ```
+
 ---
 
-## 🚀 Running the App
+## 3. 🚀 Running the App
 
 ```bash
 # Set FLASK_APP depending on your OS
