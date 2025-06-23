@@ -1,0 +1,5 @@
+Flask
+pandas==2.2.2
+numpy==1.23.5
+tensorflow==2.12.0
+tensorflow_hub==0.13.0

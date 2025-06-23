@@ -1,0 +1,3 @@
+Module: https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4
+Download Time: 2025-05-17 11:24:25.124768
+Downloader Hostname: Gautham (PID:12016)

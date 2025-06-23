@@ -1,0 +1,315 @@
+
+.heading{
+    font-family: "Climate Crisis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "YEAR" 1979;
+
+  margin-left: 20px;
+  }
+
+  .cat
+  {
+    border-radius: 10px;
+  }
+
+  .mode
+  {
+    background: none;
+    border: none;
+  }
+
+  .modeimg
+  {
+
+    fill: white;
+  }
+
+  .moonfill {
+    filter: invert(100%);
+  }
+
+.uploadbtn
+{
+  border: none;
+
+
+}
+.uploadimg {
+  width: 90px; 
+  height: 90px;
+
+}
+
+.uploadbtn
+{
+  border-radius: 40px;
+  background: transparent;
+  padding: 50px;
+}
+
+.uploadborder
+{
+  border: 1px dashed black;
+}
+
+
+
+.moonfill{
+  filter: invert(100%);
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+.uploaded-image
+{
+  height: 250px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.nav-icon {
+  width: 24px; 
+  height: 24px;
+  vertical-align: middle; 
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  transition: filter 0.3s ease-in-out; 
+}
+
+
+[data-bs-theme="dark"] .nav-icon {
+  filter: invert(100%);
+}
+
+svg, .nav-icon {
+  transition: filter 0.3s ease-in-out;
+}
+
+.heading {
+  transition: color 0.3s ease-in-out;
+}
+
+[data-bs-theme="dark"] .heading {
+  color: white; 
+}
+
+.paw
+{
+  height: 40px;
+  width: auto;
+}
+
+.d-block {
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  object-fit: cover; 
+}
+
+
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+
+.mode {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    background: transparent;
+}
+
+
+.modeimg {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.uploaded-image {
+    width: 100%; 
+    height: auto;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+
+.uploaded-image {
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+.uploaded-image {
+    width: 300px; 
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .nav-link,
+.dark-mode .footer p {
+    color: white !important;
+}
+
+.output-container {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.uploadbtn {
+ 
+  width: 300px;
+  height: 200px;
+  border: 2px dashed #aaa;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.uploadimg {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+.uploadtext {
+  font-size: 14px;
+  color: #666;
+}
+
+.upload-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.uploadbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  margin-right: 20px;
+}
+
+.uploadbtn:hover {
+  border-color: #888;
+}
+
+.uploadimg {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.uploadtext {
+  font-size: 16px;
+  color: #555;
+}
+
+.moonfill{
+  filter: invert(100%);
+  
+
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .nav-icon,
+.dark-mode img:not(.no-invert) {
+  filter: invert(1);
+}
+
+.dark-mode .no-invert {
+  filter: none !important;
+}
+
+.dark-mode img[src$=".svg"],
+.dark-mode svg {
+  filter: invert(1);
+}
+
+.dark-mode img:not([src$=".svg"]) {
+  filter: none !important;
+}
+
+.dark-mode .text-body-emphasis {
+  color: #fff !important; 
+}
+
+img.preview {
+  border-radius: 12px; 
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+
+.Predict {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.dark-mode .Predict {
+  background-color: white;
+  color: black;
+}
+
+
+
+
