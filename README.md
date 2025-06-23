@@ -1,4 +1,4 @@
-# AI-Powered-Dog-Breed-Prediction-Web-App# 🐶 AI-Powered Dog Breed Prediction Web App
+# 🐶 AI-Powered Dog Breed Prediction Web App
 
 A Flask web application that uses a deep learning model to predict a dog's breed from an uploaded image. The app is built with Python, TensorFlow, Pandas, and Flask.
 
