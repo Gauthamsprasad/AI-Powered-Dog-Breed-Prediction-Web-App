@@ -10,6 +10,9 @@ A Flask web application that uses a deep learning model to predict a dog's breed
 ### 1. 📁 Create and Activate Virtual Environment
 
 ```bash
+# Navigate to the project folder
+cd path\to\your\project
+
 # Create virtual environment
 python -m venv venv
 
